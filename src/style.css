@@ -1,0 +1,57 @@
+body {
+    background-image: url("./images/covid-icon.png");
+    background-size: 150px;
+    background-color: rgb(76, 74, 73);
+    font-family: 'Passion One', cursive;
+}
+.page {
+    border: red solid 5px;
+    border-radius: 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: center;
+    background-color: aliceblue; 
+    padding: 10px;
+}
+.title {
+    font-weight: 700;
+    color: red;
+}
+.location {
+    color: #000;
+}
+.footer {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: center;
+    background-color: aliceblue; 
+    border: red solid 5px;
+    border-radius: 20px;
+}
+.link {
+    color: red;
+}
+.button {
+    background-color: red;
+    width: 25%;
+    height: 50px;
+    color: aliceblue;
+    font-family: 'Passion One', cursive;
+    font-size: 22px;
+    border-radius: 20px;
+}
+.cases {
+    display: flex;
+    border: red solid 2px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding: 10px;
+}
+h2 {
+    margin-left: 5%;
+}
