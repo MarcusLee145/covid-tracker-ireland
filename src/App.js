@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Stats from "./components/Stats";
 import Footer from "./components/Footer";
-import env from "./env.js";
+import env from "./envSample.js";
 
 
 export default function App() {
