@@ -1,18 +1,18 @@
 import React, { useEffect } from "react";
 import Stats from "./components/Stats";
 import Footer from "./components/Footer";
+import env from "./env.js";
 
 
 export default function App() {
 
     const [covidStats, setCovidStats] = React.useState([]);
     const [toggle, setToggle] = React.useState(false);
-
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'd47d3df3f6msh722e77875dbe4f4p1bfa8ajsna3ec5839996f',
-            'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
+            'X-RapidAPI-Key': env("API_KEY"),
+            'X-RapidAPI-Host': env("API_HOST")
         }
     };
 
@@ -47,6 +47,3 @@ export default function App() {
         </div>
     )
 }
-
-//Get the select working, Get it to change location.
-//Style
